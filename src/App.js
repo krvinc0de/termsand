@@ -6,10 +6,10 @@ import './styles.css'
 function App() {
   return (
       <div style={{
-          height: '100%',
+          height: '100%'
       }}>
           <Worker workerUrl="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js"></Worker>
-          <Viewer fileUrl="/docs/cookiespolicies.pdf" />
+          <Viewer fileUrl="/docs/privacypolicies.pdf" />
       </div>
   );
 }
